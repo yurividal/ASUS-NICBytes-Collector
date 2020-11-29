@@ -1,2 +1,7 @@
 # ASUS-NICBytes-Collector
-sh script that runs in ASUS home routers to collect WAN network usage and send to influxDB
+Scripts that run inside ASUS Home Router to collect NIC Bytes stats and CPU usage stats and send to influxDB.
+
+## How to Use:
+- Copy the scripts to /etc/storage using ssh
+- Enable the scripts, on the GUI, by going to Advanced Settings -> Customization-> Scripts
+
